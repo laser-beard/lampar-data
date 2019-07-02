@@ -1,4 +1,4 @@
-import pandas
+# import pandas
 import locale
 import sys
 import lang
@@ -15,8 +15,10 @@ print(current_locale)
 
 date = '17 мар, 2019'
 
-# parsing DAY
+
 a = date.split(' ')
+
+# parsing DAY
 day = a[0]
 if day[0] != '0' and len(day) == 1:
     day = '0' + day
